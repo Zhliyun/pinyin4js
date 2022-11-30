@@ -3,7 +3,7 @@
  * 
  * @auth superbiger(superbiger@qq.com)
  */
-import { PinyinResource } from "./PinyinResource.js"
+import { PinyinResource } from "./PinyinResource.mjs"
 
 var CHINESE_REGEX = /^[\u4e00-\u9fa5]+$/;
 var CHINESE_MAP = PinyinResource.getChineseResource();

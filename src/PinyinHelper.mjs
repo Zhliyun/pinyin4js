@@ -3,8 +3,8 @@
  * 
  * @auth superbiger(superbiger@qq.com)
  */
-import { PinyinResource } from "./PinyinResource.js"
-import { ChineseHelper } from "./ChineseHelper.js"
+import { PinyinResource } from "./PinyinResource.mjs"
+import { ChineseHelper } from "./ChineseHelper.mjs"
 
 export var PinyinFormat = {
     WITH_TONE_MARK      :"WITH_TONE_MARK",   //带声调

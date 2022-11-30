@@ -3,9 +3,9 @@
  * 
  * @auth superbiger(superbiger@qq.com)
  */
-import { chinese_dict } from "./dict/chinese.dict.js"
-import { mutil_pinyin_dict } from "./dict/mutil_pinyin.dict.js"
-import { pinyin_dict } from "./dict/pinyin.dict.js"
+import { chinese_dict } from "./dict/chinese.dict.mjs"
+import { mutil_pinyin_dict } from "./dict/mutil_pinyin.dict.mjs"
+import { pinyin_dict } from "./dict/pinyin.dict.mjs"
 
 export class PinyinResource {
     //单字拼音字典库
